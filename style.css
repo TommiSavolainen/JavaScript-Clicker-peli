@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
+    overflow: visible;
   }
   
   body {
     margin: 0;
     background-color: rgb(255, 220, 167);
     font-family: 'Poppins', sans-serif;
+
   }
   
 
@@ -18,7 +20,7 @@
   footer{
     text-align: center;
     user-select: none;
-    margin-top: 60px;
+    margin-top: 20px;
   }
   h2{
     text-align: center;
@@ -27,8 +29,9 @@
   #tattiOtsikko{
     margin-bottom: 40px;
   }
-  #Sieni{
+  #Sieni {
     margin-top: 40px;
+    overflow: visible;
     
   }
   button{
@@ -61,6 +64,7 @@
   .column.middle {
     width: 50%;
     text-align: center;
+    overflow: visible;
   }
   
   /* Clear floats after the columns */
